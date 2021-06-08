@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "smallTitle": "klinarmen",
-    "title": "Clean place sparkle",
-    "description": "We keep Your World Fresh & Sparkling Clean.",
+    "smallTitle": "SINFRENOS AB",
+    "title": "Professionalism och Kvalitet",
+    "description": "Ansluta människor och platser för att få världen att fungera bättre.",
     "bg": "slider1.jpg",
-    "btnText": "Get A Quote",
+    "btnText": "Kontakta Oss",
     "btnLink": "/contact"
   },
   {
     "id": 2,
-    "smallTitle": "klinarmen",
-    "title": "Clean place sparkle",
-    "description": "We keep Your World Fresh & Sparkling Clean.",
+    "smallTitle": "SINFRENOS AB",
+    "title": "Professionalism och Kvalitet",
+    "description": "Ansluta människor och platser för att få världen att fungera bättre.",
     "bg": "slider2.jpg",
-    "btnText": "Contact Us",
+    "btnText": "Kontakta Oss",
     "btnLink": "/contact"
   },
   {
     "id": 3,
-    "smallTitle": "klinarmen",
-    "title": "Clean place sparkle",
-    "description": "We keep Your World Fresh & Sparkling Clean.",
+    "smallTitle": "SINFRENOS AB",
+    "title": "Professionalism och Kvalitet",
+    "description": "Ansluta människor och platser för att få världen att fungera bättre.",
     "bg": "slider1.jpg",
-    "btnText": "Contact Us",
+    "btnText": "Kontakta Oss",
     "btnLink": "/contact"
   }
  

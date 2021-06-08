@@ -29,10 +29,7 @@ const About = () => {
                 />
 
                 <WelocmePromo />
-                <Testimonial />
-                <ChooseUs />
-                <Team />
-                <LogoContainer />
+                
         
             </LayoutOne>
         </Fragment>

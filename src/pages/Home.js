@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>klinarmen | Home</title>
+        <title>Sinfrenoss | Home</title>
         <meta
           name="description"
           content="Cleaning  React JS Template."
@@ -29,13 +29,9 @@ const Home = () => {
       <Slider />
       <WelocmePromo/>  
       <Services /> 
-      <FunFact />   
       <ChooseUs />   
       <Gallery />
-      <Team />
-      <PricingTable />  
       <Testimonial /> 
-      <Blog /> 
       <LogoContainer /> 
 
       </LayoutOne>

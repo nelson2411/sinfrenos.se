@@ -3414,11 +3414,20 @@ header {
   -moz-border-left-colors: none;
   border-image: none;
   width: 100%;
-  margin-bottom: 39px;
+  margin-bottom: 12px;
   padding-bottom: 20px;
   line-height: 10px;
   border: none;
   border-bottom: 1px solid #e7e7e7;
+}
+
+.form-group1{
+  margin-bottom: 18px;
+  margin-top: 12px;
+}
+
+#err {
+  color: #FF0000;
 }
 
 .contact-form #contact-form .con-field:focus, .contact-form #comment-form .con-field:focus, .comment-form #contact-form .con-field:focus, .comment-form #comment-form .con-field:focus {

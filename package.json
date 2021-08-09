@@ -44,7 +44,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "plugin: react/recommended"
+  ]
   },
   "browserslist": {
     "production": [
@@ -61,6 +63,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react": "^7.24.0",
     "node-sass": "^4.14.1"
   }
 }

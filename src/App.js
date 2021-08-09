@@ -1,92 +1,94 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ScrollToTop from "./helpers/ScrollToTop";
-import Home from "./pages/Home"; 
-import HomeTwo from "./pages/HomeTwo"; 
-import Service from "./pages/Service";   
-import SingleService from "./pages/SingleService";   
-import SingleGallery from "./pages/SingleGallery";   
-import SingleBlog from "./pages/SingleBlog";   
-import Blog from "./pages/Blog"; 
-import Gallery from "./pages/Gallery"; 
-import About from "./pages/About"; 
-import Team from "./pages/Team"; 
-import Contact from "./pages/Contact"; 
-import Products from "./pages/Products";
-import Offert from "./pages/Offert";
-import NotFound from "./pages/NotFound"; 
-import Financial from "./pages/Financial"
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import ScrollToTop from './helpers/ScrollToTop'
+import Home from './pages/Home'
+import HomeTwo from './pages/HomeTwo'
+import Service from './pages/Service'
+import SingleService from './pages/SingleService'
+import SingleGallery from './pages/SingleGallery'
+import SingleBlog from './pages/SingleBlog'
+import Blog from './pages/Blog'
+import Gallery from './pages/Gallery'
+import About from './pages/About'
+import Team from './pages/Team'
+import Contact from './pages/Contact'
+import Products from './pages/Products'
+import Offert from './pages/Offert'
+import NotFound from './pages/NotFound'
+import Financial from './pages/Financial'
 
-
-function App() {
+function App () {
   return (
     <Router>
       <ScrollToTop>
         <Switch>
           <Route
             exact
-            path={`${process.env.PUBLIC_URL + "/"}`}
+            path={`${process.env.PUBLIC_URL + '/'}`}
             component={Home}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/home"}`}
+            path={`${process.env.PUBLIC_URL + '/home'}`}
             component={Home}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/home-two"}`}
+            path={`${process.env.PUBLIC_URL + '/home-two'}`}
             component={HomeTwo}
-          />  
+          />
           <Route
-            path={`${process.env.PUBLIC_URL + "/about"}`}
+            path={`${process.env.PUBLIC_URL + '/about'}`}
             component={About}
-          />  
-          <Route exact path={`${process.env.PUBLIC_URL + '/service'}`} 
-          component={Service}
-          /> 
-          <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} 
-          component={SingleService}
-          />
-          <Route path={`${process.env.PUBLIC_URL + '/gallery/:galleryID'}`} 
-          component={SingleGallery}
-          />
-          <Route path={`${process.env.PUBLIC_URL + '/blog/:blogID'}`} 
-          component={SingleBlog}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/products"}`}
+            exact path={`${process.env.PUBLIC_URL + '/service'}`}
+            component={Service}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`}
+            component={SingleService}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + '/gallery/:galleryID'}`}
+            component={SingleGallery}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + '/blog/:blogID'}`}
+            component={SingleBlog}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL + '/products'}`}
             component={Products}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/blog"}`}
+            path={`${process.env.PUBLIC_URL + '/blog'}`}
             component={Blog}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/gallery"}`}
+            path={`${process.env.PUBLIC_URL + '/gallery'}`}
             component={Gallery}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/team"}`}
+            path={`${process.env.PUBLIC_URL + '/team'}`}
             component={Team}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/offert"}`}
+            path={`${process.env.PUBLIC_URL + '/offert'}`}
             component={Offert}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/contact"}`}
+            path={`${process.env.PUBLIC_URL + '/contact'}`}
             component={Contact}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + "/financial"}`}
+            path={`${process.env.PUBLIC_URL + '/financial'}`}
             component={Financial}
           />
-          
-          
+
           <Route exact component={NotFound} />
         </Switch>
       </ScrollToTop>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

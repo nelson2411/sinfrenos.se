@@ -1,41 +1,35 @@
-import React, { Fragment } from "react"; 
-import MetaTags from "react-meta-tags";
-import LayoutOne from "../layouts/LayoutOne"; 
+import React, { Fragment } from 'react'
+import MetaTags from 'react-meta-tags'
+import LayoutOne from '../layouts/LayoutOne'
 import Slider from '../components/Slider/SliderOne'
 import WelocmePromo from '../components/WelcomePromo/PromoContainer'
-import Services from '../components/Services/home-one/ServiceContainer' 
-import FunFact from '../components/FunFact/FunFactContainer'
-import ChooseUs from '../components/WhyChooseUs/ChooseUs';
-import Gallery from '../components/Gallery/Gallery'; 
-import Team from '../components/Team/TeamContainer'; 
-import PricingTable from '../components/PricingTable/PricingContainer';  
-import Testimonial from '../components/Testimonials/home-one/TestimonialContent';  
-import Blog from '../components/Blog/home-one/BlogContainer';  
-import LogoContainer from '../components/BrandLogo/LogoContainer';  
+import Services from '../components/Services/home-one/ServiceContainer'
+import ChooseUs from '../components/WhyChooseUs/ChooseUs'
+import Gallery from '../components/Gallery/Gallery'
+import Testimonial from '../components/Testimonials/home-one/TestimonialContent'
 
- 
 const Home = () => {
   return (
-    <Fragment>
+    <>
       <MetaTags>
         <title>Sinfrenoss | Home</title>
         <meta
-          name="description"
-          content="Cleaning  React JS Template."
+          name='description'
+          content='Cleaning  React JS Template.'
         />
       </MetaTags>
       <LayoutOne>
-   
-      <Slider />
-      <WelocmePromo/>  
-      <Services /> 
-      <ChooseUs />   
-      <Gallery />
-      <Testimonial /> 
-      
-      </LayoutOne>
-    </Fragment>
-  );
-};
 
-export default Home;
+        <Slider />
+        <WelocmePromo />
+        <Services />
+        <ChooseUs />
+        <Gallery />
+        <Testimonial />
+
+      </LayoutOne>
+    </>
+  )
+}
+
+export default Home

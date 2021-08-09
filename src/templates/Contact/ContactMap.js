@@ -1,12 +1,12 @@
-import { PropTypes } from "prop-types";
-import React from "react";
-import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
+import { PropTypes } from 'prop-types'
+import React from 'react'
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react'
 
 const ContactMap = props => {
   const mapStyles = {
-    width: "100%",
-    height: "100%"
-  };
+    width: '100%',
+    height: '100%'
+  }
 
   return (
     <Map
@@ -18,20 +18,20 @@ const ContactMap = props => {
       <Marker
         position={{ lat: props.latitude, lng: props.longitude }}
         icon={{
-          url: `${process.env.PUBLIC_URL + "/images/icons/map.png"}`
+          url: `${process.env.PUBLIC_URL + '/images/icons/map.png'}`
         }}
         animation={props.google.maps.Animation.BOUNCE}
       />
     </Map>
-  );
-};
+  )
+}
 
 ContactMap.propTypes = {
   google: PropTypes.object,
   latitude: PropTypes.string,
   longitude: PropTypes.string
-};
+}
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDbOU5JUmNH8BTiOaCiRWPrvdGlapqdD34"
-})(ContactMap);
+  apiKey: 'AIzaSyDbOU5JUmNH8BTiOaCiRWPrvdGlapqdD34'
+})(ContactMap)

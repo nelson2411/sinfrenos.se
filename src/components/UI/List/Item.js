@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-function LI({children}) {
-    return (
-        <li>
-            {children}
-        </li>
-    );
+function LI ({ children }) {
+  return (
+    <li>
+      {children}
+    </li>
+  )
 }
 
-export default LI;
+export default LI

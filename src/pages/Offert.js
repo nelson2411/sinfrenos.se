@@ -1,36 +1,33 @@
-import React , {Fragment } from 'react';  
-import MetaTags from "react-meta-tags";
-import LayoutOne from "../layouts/LayoutOne";
-import Contact from "../templates/Contact/indexOffert";
+import React, { Fragment } from 'react'
+import MetaTags from 'react-meta-tags'
+import LayoutOne from '../layouts/LayoutOne'
+import Contact from '../templates/Contact/indexOffert'
 import PageHeader from '../components/PageHeader'
 
 const OffertPage = () => {
-    
-    return(
+  return (
 
-        <Fragment>
-            <MetaTags>
-              <title>klinarmen | Contact Us</title>
-              <meta
-                name="description"
-                content="Cleaning  React JS Template."
-              />
-            </MetaTags>
+    <>
+      <MetaTags>
+        <title>klinarmen | Contact Us</title>
+        <meta
+          name='description'
+          content='Cleaning  React JS Template.'
+        />
+      </MetaTags>
 
-            <LayoutOne>
-              <PageHeader
-                bgImg={require('../assets/images/quote-sinfrenos.jpg')}
-                title="Offertförfrågan" 
-              />
-              
-              <Contact />
- 
-            </LayoutOne>
-        </Fragment>
+      <LayoutOne>
+        <PageHeader
+          bgImg={require('../assets/images/quote-sinfrenos.jpg')}
+          title='Offertförfrågan'
+        />
 
-      );
-  }
+        <Contact />
 
-     
+      </LayoutOne>
+    </>
 
-export default OffertPage;   
+  )
+}
+
+export default OffertPage

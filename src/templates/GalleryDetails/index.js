@@ -1,34 +1,29 @@
-import React, { Fragment } from "react";  
-import PageHeader from '../../components/PageHeader'  
-import GalleryData from '../../data/Gallery/gallery'  
-import RelatedWork from "../../components/RelatedWorkGallery"; 
-import GalleryContent from "./GalleryContent"; 
-
+import React, { Fragment } from 'react'
+import PageHeader from '../../components/PageHeader'
+import GalleryData from '../../data/Gallery/gallery'
+import RelatedWork from '../../components/RelatedWorkGallery'
+import GalleryContent from './GalleryContent'
 
 const GalleryDetails = () => {
+  const galleryID = new URLSearchParams(window.location.search).get('id')
+  const gallery = GalleryData.find((galleryItem) => galleryItem.id === parseInt(galleryID))
 
-    const galleryID = new URLSearchParams(window.location.search).get("id");
-	const gallery = GalleryData.find((galleryItem) => galleryItem.id === parseInt(galleryID));
-	
-	return (
-	  <Fragment>
-  
-			<PageHeader
-				bgImg={require('../../assets/images/page_bg.jpg')}
-				title={gallery.title}
-			/>
+  return (
+    <>
 
-			<GalleryContent
-				gallery={gallery} 
-			/>
-			 
-			<RelatedWork />
+      <PageHeader
+        bgImg={require('../../assets/images/page_bg.jpg')}
+        title={gallery.title}
+      />
 
-	  </Fragment>
-	);
-  };
-  
-  export default GalleryDetails;
+      <GalleryContent
+        gallery={gallery}
+      />
 
+      <RelatedWork />
 
+    </>
+  )
+}
 
+export default GalleryDetails

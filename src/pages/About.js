@@ -1,41 +1,39 @@
-import React, { Fragment } from "react"; 
-import MetaTags from "react-meta-tags";
-import LayoutOne from "../layouts/LayoutOne";
+import React, { Fragment } from 'react'
+import MetaTags from 'react-meta-tags'
+import LayoutOne from '../layouts/LayoutOne'
 import WelocmePromo02 from '../components/WelcomePromo/PromoContainer-02'
-import Testimonial from '../components/Testimonials/home-one/TestimonialContent'; 
-import ChooseUs from '../components/WhyChooseUs/ChooseUs';
-import Team from '../components/Team/TeamContainer'; 
-import LogoContainer from '../components/BrandLogo/LogoContainer'; 
+import Testimonial from '../components/Testimonials/home-one/TestimonialContent'
+import ChooseUs from '../components/WhyChooseUs/ChooseUs'
+import Team from '../components/Team/TeamContainer'
+import LogoContainer from '../components/BrandLogo/LogoContainer'
 import PageHeader from '../components/PageHeader'
-import OmOss from '../components/OmOss';
+import OmOss from '../components/OmOss'
 
 const About = () => {
- 
-    return(
-        <Fragment>
-            <MetaTags>
-              <title>Sinfrenos AB | Om Oss</title>
-              <meta
-                name="description"
-                content="Städning tjänster"
-              />
-            </MetaTags>
+  return (
+    <>
+      <MetaTags>
+        <title>Sinfrenos AB | Om Oss</title>
+        <meta
+          name='description'
+          content='Städning tjänster'
+        />
+      </MetaTags>
 
-            <LayoutOne>
-            
-                <PageHeader
-                    bgImg={require('../assets/images/about-sinfrenos.jpg')}
-                    title="Om Oss" 
-                />
+      <LayoutOne>
 
-                <WelocmePromo02 />
-                <OmOss />
+        <PageHeader
+          bgImg={require('../assets/images/about-sinfrenos.jpg')}
+          title='Om Oss'
+        />
 
-        
-            </LayoutOne>
-        </Fragment>
-            
-    ); 
-};
+        <WelocmePromo02 />
+        <OmOss />
 
-export default About;   
+      </LayoutOne>
+    </>
+
+  )
+}
+
+export default About

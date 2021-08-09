@@ -1,42 +1,40 @@
-import React, { Fragment } from "react"; 
-import MetaTags from "react-meta-tags";
-import LayoutOne from "../layouts/LayoutOne";
-import Personal from "../components/Products/PersonalContainer"
-import Beauty from "../components/Products/BeautyContainer"
-import WellBeing from '../components/Products/WellBeingContainer' 
+import React, { Fragment } from 'react'
+import MetaTags from 'react-meta-tags'
+import LayoutOne from '../layouts/LayoutOne'
+import Personal from '../components/Products/PersonalContainer'
+import Beauty from '../components/Products/BeautyContainer'
+import WellBeing from '../components/Products/WellBeingContainer'
 import Home from '../components/Products/HomeContainer'
-import LogoContainer from '../components/BrandLogo/LogoContainer'; 
+import LogoContainer from '../components/BrandLogo/LogoContainer'
 import PageHeader from '../components/PageHeader'
 
 const About = () => {
- 
-    return(
-        <Fragment>
-            <MetaTags>
-              <title>Sinfrenos AB | Produkter</title>
-              <meta
-                name="description"
-                content="Produkter"
-              />
-            </MetaTags>
+  return (
+    <>
+      <MetaTags>
+        <title>Sinfrenos AB | Produkter</title>
+        <meta
+          name='description'
+          content='Produkter'
+        />
+      </MetaTags>
 
-            <LayoutOne>
-            
-                <PageHeader
-                    bgImg={require('../assets/images/shop-amway-sinfrenos.jpg')}
-                    title="Våra Produkter" 
-                />
+      <LayoutOne>
 
-                <WellBeing />
-                <Beauty />
-                <Personal />
-                <Home />
+        <PageHeader
+          bgImg={require('../assets/images/shop-amway-sinfrenos.jpg')}
+          title='Våra Produkter'
+        />
 
-        
-            </LayoutOne>
-        </Fragment>
-            
-    ); 
-};
+        <WellBeing />
+        <Beauty />
+        <Personal />
+        <Home />
 
-export default About;   
+      </LayoutOne>
+    </>
+
+  )
+}
+
+export default About

@@ -1,75 +1,56 @@
 [
   {
     "id": 1,
-    "title": "Home",
+    "title": "Hem",
     "link": "/",
-    "subMenu": [
-      {
-        "id": 1.1,
-        "title": "Home One",
-        "link": "/home"
-      },
-      {
-        "id": 1.2,
-        "title": "Home Two",
-        "link": "/home-two"
-      }
-    ]
+    "subMenu": false
+      
   },
   {
     "id": 2,
-    "title": "About",
+    "title": "Om Oss",
     "link": "/about",
     "subMenu": false
   },
   {
     "id": 3,
-    "title": "Services",
+    "title": "Tjänster",
     "link": "/service",
     "subMenu": [
       {
-        "title": "Office Cleaning",
+        "title": "Städning",
         "link": "/service/office-cleaning?id=1"
       },
       {
-        "title": "House Cleaning",
+        "title": "Trädgård",
         "link": "/service/house-cleaning?id=2"
       },
       {
-        "title": "Carpet Cleaning",
-        "link": "/service/carpet-cleaning?id=3"
+        "title": "Vällbefinnande",
+        "link": "/service/Vällbefinnande Produkter?id=3"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Gallery",
-    "link": "/gallery",
-    "subMenu": false
+    "title": "Vår Butik",
+    "link": "/products"
   },
   {
     "id": 5,
-    "title": "Blog",
-    "link": "/blog",
-    "subMenu": [
-      {
-        "title": "Blog Page",
-        "link": "/blog"
-      },
-      {
-        "title": "Single Page",
-        "link": "/blog/how-to-remove-coffee-stain?id=3"
-      }
-    ]
+    "title": "Offertförfrågan",
+    "link": "/offert"
   },
-  {
+    {
     "id": 6,
-    "title": "Team",
-    "link": "/team"
+    "title": "Kontakt",
+    "link": "/contact"
   },
   {
     "id": 7,
-    "title": "Contact",
-    "link": "/contact"
+    "title": "Ekonomi & Redovisningskonsult",
+    "link": "/financial"
   }
+  
+
 ]

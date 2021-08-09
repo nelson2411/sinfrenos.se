@@ -12,7 +12,10 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About"; 
 import Team from "./pages/Team"; 
 import Contact from "./pages/Contact"; 
+import Products from "./pages/Products";
+import Offert from "./pages/Offert";
 import NotFound from "./pages/NotFound"; 
+import Financial from "./pages/Financial"
 
 
 function App() {
@@ -50,6 +53,10 @@ function App() {
           component={SingleBlog}
           />
           <Route
+            path={`${process.env.PUBLIC_URL + "/products"}`}
+            component={Products}
+          />
+          <Route
             path={`${process.env.PUBLIC_URL + "/blog"}`}
             component={Blog}
           />
@@ -62,9 +69,19 @@ function App() {
             component={Team}
           />
           <Route
+            path={`${process.env.PUBLIC_URL + "/offert"}`}
+            component={Offert}
+          />
+          <Route
             path={`${process.env.PUBLIC_URL + "/contact"}`}
             component={Contact}
           />
+          <Route
+            path={`${process.env.PUBLIC_URL + "/financial"}`}
+            component={Financial}
+          />
+          
+          
           <Route exact component={NotFound} />
         </Switch>
       </ScrollToTop>

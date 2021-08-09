@@ -4,7 +4,7 @@ import testimonialData from '../../../data/Testimonials/home-one'
 import TestimonialItem from  './TestimonialItem'
 import SectionTitle from "../../SectionTitles/SectionTitle";
 
-import testimonialBg from '../../../assets/images/testimonial.jpg' 
+import testimonialBg from '../../../assets/images/testimonials-sinfrenos.jpg' 
  
  
     const Testimonials = () => {
@@ -28,7 +28,7 @@ import testimonialBg from '../../../assets/images/testimonial.jpg'
                         <div className="col-md-5 col-sm-12">	
                             {/* Heading */} 
                             <SectionTitle 
-                                title="What our clients Say"
+                                title="Vad Våra Kunder Säger"
                                 subtitle="Lorem ipsum dolor sit ametet verear info omnr noluisse eumdi congue refor midans was at atomorum his idpri te hinc after at expetendasts sit ametet verear info omnr noluisse eumdiam congue noluisse eumdi congue."
                             />
                             {/* End: Heading */ }  

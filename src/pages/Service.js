@@ -19,13 +19,12 @@ const servicePage = () => {
 		<LayoutOne>
 		<div className="service-page">
 			<PageHeader
-				bgImg={require('../assets/images/page_bg.jpg')}
+				bgImg={require('../assets/images/Our-services-sinfrenos.jpg')}
 				title="Our Services" 
 			/>
 			<Services />
 			<ChooseUs />
-			<PricingTable />
-		</div>
+			</div>
 		</LayoutOne>
 	  </Fragment>
 	);

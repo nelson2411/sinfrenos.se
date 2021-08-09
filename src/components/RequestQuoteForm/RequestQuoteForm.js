@@ -94,28 +94,28 @@ class RequestQuoteForm extends Component{
               </div> 
               <form method="post"  name="contact-form" id="contactForm" className="form-order">
                   <div className="estimate_form_inner">
-                  <h4>Request a quote</h4>
+                  <h4>Begär offert</h4>
                       <div className="input-group"> 
-                          <input type="text" id="user-name" value={this.state.name} onChange={this.handleChangeName} className="form-control" placeholder="Full Name" /> 
+                          <input type="text" id="user-name" value={this.state.name} onChange={this.handleChangeName} className="form-control" placeholder="Namn" /> 
                           <span id="err">{this.state.name_err}</span>
                       </div>
                       <div className="input-group"> 
-                          <input type="text" className="con-field form-control" value={this.state.email} onChange={this.handleChangeEmail} id="user-email" placeholder="Email Address" />
+                          <input type="text" className="con-field form-control" value={this.state.email} onChange={this.handleChangeEmail} id="user-email" placeholder="e-postadress" />
                           <span id="err">{this.state.email_err}</span>
                       </div>  
                       <div className="input-group"> 
-                          <input type="text" id="phone" value={this.state.phone} onChange={this.handleChangePhone} className="form-control" placeholder="Phone No" />
+                          <input type="text" id="phone" value={this.state.phone} onChange={this.handleChangePhone} className="form-control" placeholder="Telefonnummer" />
                           <span id="err">{this.state.phone_err}</span>
                       </div>                         
                       <div className="input-group"> 
-                          <input type="text" id="subject" value={this.state.subject} onChange={this.handleChangeSubject} className="form-control" placeholder="Your Subject.." />
+                          <input type="text" id="subject" value={this.state.subject} onChange={this.handleChangeSubject} className="form-control" placeholder="Ämne" />
                           <span id="err">{this.state.subject_err}</span>
                       </div> 
                       <div className="input-group input_group_full_width"> 
-                          <textarea name="comments" id="comments" value={this.state.message} onChange={this.handleChangeMessage} rows="6" className="form-control" placeholder="Your Message"></textarea>
+                          <textarea name="comments" id="comments" value={this.state.message} onChange={this.handleChangeMessage} rows="6" className="form-control" placeholder="Ditt meddelande"></textarea>
                           <span id="err">{this.state.message_err}</span>
                       </div> 
-                      <input type="button" className="btn btn-primary" name="send" onClick={this.handleSubmit1} value="get a quote" /> 
+                      <input type="button" className="btn btn-primary" name="send" onClick={this.handleSubmit1} value="Få en förslag" /> 
                       <div id="simple-msg"></div>
                       
                   </div>

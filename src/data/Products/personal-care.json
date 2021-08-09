@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1, 
+    "title": "2-in-1 Hair & Body Shampoo HYMM™",
+    "pris": "kr81,00",
+    "shortDesc": "One man, one solution: the 2-in-1 Hair & Body Shampoo cleanses the body from head to toe and bathes the skin in well-being. A formula created with Water Mint Extract and Sea Minerals cleanses both body & hair while leaving a fresh scent and provides light conditioning effect to the hair.", 
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+
+    "thumb": "2in1-shampoo.jpg",
+    "btnText": "Read More",
+    "singleThumb": "2in1-shampoo.jpg"
+  },
+  {
+    "id": 2, 
+    "title": "Anti-Hairfall Shampoo SATINIQUE™",
+    "pris": "kr153,00",
+    "shortDesc": "Perfect for reducing breakage of fragile, fine or thinning hair. Blended with botanicals Ginseng, Eclipta Alba Extract and Mulberry Leaf Extract.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "anti-hairfall.jpg",
+    "btnText": "Read More",
+    "singleThumb": "anti-hairfall.jpg"
+  },
+  {
+    "id": 3, 
+    "title": "Dental Floss GLISTER™ | Amway",
+    "pris": "kr42,00",
+    "shortDesc": "This unique single-fibre floss is gentle on the gums. It passes easily between the tightest contact points of your teeth without leaving filaments trapped there.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "dental-floss.jpg",
+    "btnText": "Read More",
+    "singleThumb": "dental-floss.jpg"
+  },
+  {
+    "id": 4, 
+    "title": "Disposable Face Mask Amway™",
+    "pris": "kr126,00",
+    "shortDesc": "Disposable 3-ply face mask providing 98% protection against bacteria. Soft, breathable and comfortable to wear. The product is part of the Amway “Together we can” campaign.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "face-mask.jpg",
+    "btnText": "Read More",
+    "singleThumb": "face-mask.jpg"
+  },
+  {
+    "id": 5, 
+    "title": "G&H PROTECT+™ Bar Soap 6 in 1",
+    "pris": "kr213,00",
+    "shortDesc": "Mild bar soap thoroughly cleans and protects skin’s natural moisture balance.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "g&h-protect.jpg",
+    "btnText": "Read More",
+    "singleThumb": "g&h-protect.jpg"
+  }
+ 
+]

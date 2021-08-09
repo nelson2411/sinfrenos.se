@@ -201,7 +201,6 @@ class ContactForm extends Component{
                             <span id="err">{this.state.object_err}</span>
                         </div>
                         <div className="col-lg-12 form-group1">
-                            <p>Antal KVM</p>
                             <input type="number" id="kvm" value={this.state.kvm} onChange={this.handleChangeKvm} className="con-field" placeholder="Antal KVM" />
                             <span id="err">{this.state.kvm_err}</span>
                         </div>
@@ -222,13 +221,11 @@ class ContactForm extends Component{
                           </label>
                         </div>
                         <div className="col-lg-12 form-group1">
-                            <p>Antal Rum:</p>
-                            <input type="number" className="con-field" value={this.state.rum} onChange={this.handleChangeRum} id="user-rum" placeholder="Antal Rum" />
+                            <input type="number" className="con-field marg-top" value={this.state.rum} onChange={this.handleChangeRum} id="user-rum" placeholder="Antal Rum" />
                             <span id="err">{this.state.rum_err}</span>
                         </div>
                         <div className="col-lg-12 form-group1">
-                            <p>Antal Fönster:</p>
-                            <input type="number" className="con-field" value={this.state.window} onChange={this.handleChangeWindow} id="user-window" placeholder="Antal Fönster" />
+                            <input type="number" className="con-field marg-top01" value={this.state.window} onChange={this.handleChangeWindow} id="user-window" placeholder="Antal Fönster" />
                             <span id="err">{this.state.window_err}</span>
                         </div>
                     </div>

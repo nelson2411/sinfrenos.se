@@ -19,12 +19,12 @@ const Header = () => {
                 <div className="header_top_location">
                     <div className="top_location">
                         <i className="icon_clock_alt"></i>
-                        <p>Opening Hours </p>
+                        <p>Öppettider</p>
                         <span> 8:00AM - 6:00PM</span>
                     </div>
                     <div className="top_location">
                         <i className="icon_phone"></i>
-                        <p>Contact Us</p>
+                        <p>Kontakt Oss</p>
                         <span>014 7422 866</span>
                     </div>                  
                 </div>

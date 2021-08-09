@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "title": "office cleaning",
+    "title": "Kontorstädning",
     "text": "dolor sit amet cons ectetur adipi scing elited asellu id lectu quis duia cosn splacet amet cons ectetu adipi scing id",
     "img": "service_icon_1.png",
     "link": ""
   },
   {
     "id": 2,
-    "title": "house cleaning ",
+    "title": "Hemstädning ",
     "text": "dolor sit amet cons ectetur adipi scing elited asellu id lectu quis duia cosn splacet amet cons ectetu adipi scing id",
     "img": "service_icon_2.png",
     "link": ""
   },
   {
     "id": 3,
-    "title": "pool cleaning",
+    "title": "Storstädning",
     "text": "dolor sit amet cons ectetur adipi scing elited asellu id lectu quis duia cosn splacet amet cons ectetu adipi scing id",
     "img": "service_icon_3.png",
     "link": ""

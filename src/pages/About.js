@@ -1,35 +1,36 @@
 import React, { Fragment } from "react"; 
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../layouts/LayoutOne";
-import WelocmePromo from '../components/WelcomePromo/PromoContainer'
+import WelocmePromo02 from '../components/WelcomePromo/PromoContainer-02'
 import Testimonial from '../components/Testimonials/home-one/TestimonialContent'; 
 import ChooseUs from '../components/WhyChooseUs/ChooseUs';
 import Team from '../components/Team/TeamContainer'; 
 import LogoContainer from '../components/BrandLogo/LogoContainer'; 
 import PageHeader from '../components/PageHeader'
-
+import OmOss from '../components/OmOss';
 
 const About = () => {
  
     return(
         <Fragment>
             <MetaTags>
-              <title>klinarmen | About</title>
+              <title>Sinfrenos AB | Om Oss</title>
               <meta
                 name="description"
-                content="Cleaning  React JS Template."
+                content="Städning tjänster"
               />
             </MetaTags>
 
             <LayoutOne>
             
                 <PageHeader
-                    bgImg={require('../assets/images/page_bg.jpg')}
-                    title="About Us" 
+                    bgImg={require('../assets/images/about-sinfrenos.jpg')}
+                    title="Om Oss" 
                 />
 
-                <WelocmePromo />
-                
+                <WelocmePromo02 />
+                <OmOss />
+
         
             </LayoutOne>
         </Fragment>

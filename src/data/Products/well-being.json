@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1, 
+    "title": "Vitamin B Plus NUTRIWAY™",
+    "pris": "kr194,00",
+    "shortDesc": "NUTRIWAY™ Vitamin B Plus uses a dual-action technology for the optimum release of all eight essential B Vitamins to help reduce fatigue, support normal energy-yielding metabolism and contribute to the normal functioning of the immune system.", 
+    "description": "<p>While our lives are getting busier and busier, running out of energy is not an option. Many of us turn to caffeine or snacks to boost our energy levels when they’re lagging but these habits are far from sustainable and neither actually address the causes of fatigue. With NUTRIWAY™ Vitamin B Plus, it’s easy to stay energised. B Vitamins support your normal energy-yielding metabolism and help to reduce tiredness and fatigue. NUTRIWAY™ Vitamin B Plus provides an immediate boost of B Vitamins to kick-start your day and maintain energy levels for a full eight hours. Additionally, vitamins B12 and B6 have been found to contribute to the normal functioning of the immune system, giving you the daily support you need to live life to the fullest. 100% NRV (Nutrient Reference Value) of all eight essential B Vitamins are delivered in just one tablet and thanks to the dual-action technology nutrients are released at the ideal time for an optimal absorption. One tablet is all it takes to feel full of energy all day</p>",
+    "thumb": "vitamin-b.jpg",
+    "btnText": "Read More",
+    "singleThumb": "vitamin-b.jpg"
+  },
+  {
+    "id": 2, 
+    "title": "Iron Folic Plus NUTRIWAY™",
+    "pris": "kr153,00",
+    "shortDesc": "NUTRIWAY Iron Folic Plus provides iron from two iron sources together with folic acid. These nutrients may not be provided in sufficient amounts by your daily nutritional intake if you are eating an unbalanced diet. An increased need occurs during pregnancy and breastfeeding.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "iron-folic.jpg",
+    "btnText": "Read More",
+    "singleThumb": "iron-folic.jpg"
+  },
+  {
+    "id": 3, 
+    "title": "CMeal Replacement Bar – Tropical Fruits bodykey by NUTRIWAY™",
+    "pris": "kr500,00",
+    "shortDesc": "New bodykey by NUTRIWAY Meal Replacement Bars are an easy and effective way for you to replace 1-2 meals daily and achieve your weight-management and healthy lifestyle goals.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "meal-replacement-bar.jpg",
+    "btnText": "Read More",
+    "singleThumb": "meal-replacement-bar.jpg"
+  },
+  {
+    "id": 4, 
+    "title": "Omega-3 Complex NUTRIWAY™",
+    "pris": "kr401,00",
+    "shortDesc": "Omega-3 fatty acids work like the oiled chain on a bike by supporting normal heart function. However, they are known as ‘essential’ because we cannot produce them naturally in our body; we have to get them from our diet. A balanced diet including one-or-two portions of fish a week is ideal but, we understand, not always possible.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "omega3.jpg",
+    "btnText": "Read More",
+    "singleThumb": "omega3.jpg"
+  },
+  {
+    "id": 5, 
+    "title": "Vitamin C Plus - Extended Release NUTRIWAY™",
+    "pris": "251,00",
+    "shortDesc": "NUTRWAY™ Vitamin C Plus is a highly effective food supplement that delivers a slow and steady release of Vitamin C throughout the day to support the normal functioning of your immune system.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "vitamin-c.jpg",
+    "btnText": "Read More",
+    "singleThumb": "vitamin-c.jpg"
+  }
+ 
+]

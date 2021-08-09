@@ -12,8 +12,8 @@ const GalleryContent  = ({classes}) => {
                 <div className="container">
                     {/* Heading */}
 					<SectionTitle
-						title="Cleaning Work"
-						subtitle="Subjects to ecstatic children he could ye leave up as built match. Dejection agreeable attention set suspected led offending dmitting an performed supposing by garden agreed matter."
+						title="Vårt Arbete"
+						subtitle="Här presenterar vi en del av vårt arbete."
 					/>
 					{/* End: Heading */}
                     <div className="projects-list">  
@@ -21,24 +21,22 @@ const GalleryContent  = ({classes}) => {
                         <Tab.Container defaultActiveKey="all">
                             <Nav variant="pills" className="acount__nav justify-content-center nav nav-pills">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="all">all projects</Nav.Link>
+                                    <Nav.Link eventKey="all">Alla Projekt</Nav.Link>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <Nav.Link eventKey="office">office cleaning</Nav.Link>
+                                    <Nav.Link eventKey="office">Hemstädning</Nav.Link>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <Nav.Link eventKey="pool">Pool cleaning</Nav.Link>
+                                    <Nav.Link eventKey="pool">kontorstädning</Nav.Link>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <Nav.Link eventKey="carpet">Carpet cleaning</Nav.Link>
+                                    <Nav.Link eventKey="carpet">Andra Rengöringsarbeten</Nav.Link>
                                 </Nav.Item>
 
-                                <Nav.Item>
-                                    <Nav.Link eventKey="house">House cleaning</Nav.Link>
-                                </Nav.Item>
+                                
                             </Nav>
 
                             <Tab.Content>

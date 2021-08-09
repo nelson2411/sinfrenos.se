@@ -32,8 +32,7 @@ const Home = () => {
       <ChooseUs />   
       <Gallery />
       <Testimonial /> 
-      <LogoContainer /> 
-
+      
       </LayoutOne>
     </Fragment>
   );

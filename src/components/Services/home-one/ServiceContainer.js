@@ -9,7 +9,7 @@ const Service = () => {
 
     const settings = {
         dots: true,
-        arrows:false,
+        arrows:true,
         infinite: true, 
         speed: 1000,
         autoplay: true,
@@ -41,8 +41,8 @@ const Service = () => {
             <div className="container"> 
                 {/* Heading */}
                 <SectionTitle
-                    title="Our Services"
-                    subtitle="Subjects to ecstatic children he could ye leave up as built match. Dejection agreeable attention set suspected led offending dmitting an performed supposing by garden agreed matter."
+                    title="Våra Tjänster"
+                    subtitle="Vårt företag har ett brett utbud av tjänster och innovativa lösningar för kunder i alla sektorer och med olika budgetar."
                 />
                 {/* End: Heading */}
 

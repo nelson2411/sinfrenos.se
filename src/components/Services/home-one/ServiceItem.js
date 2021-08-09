@@ -7,8 +7,8 @@ function ServiceItem(props) {
     return ( 
  
     <div className="col-sm-12">
-        <div className="service_list"> 
-            <div className="img_serv"> 
+        <div className="service_list01"> 
+            <div className="img_serv01"> 
                 <Link to={`${process.env.PUBLIC_URL + serviceURL}`}> 
                 <img src={require('../../../assets/images/' + props.thumb)} alt="service" />
                 </Link>

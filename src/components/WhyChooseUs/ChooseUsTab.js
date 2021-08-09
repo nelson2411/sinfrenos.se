@@ -14,42 +14,42 @@ class ChooseUsTab extends Component{
 		return(
 			<Fragment>
 				<div className="base_header_2">
-					<h3>Why Choosing us?</h3>
+					<h3>Varför välja oss?</h3>
 				</div>
 				<Accordion preExpanded={['a']}>
 					<AccordionItem uuid="a">
 						<AccordionItemHeading>
 							<AccordionItemButton>
-								Do I have to be home when the cleaner comes?
+							Vad är vårt värdeförslag? 
 							</AccordionItemButton>
 						</AccordionItemHeading>
 						
 						<AccordionItemPanel>
-						One two three four five six seven eight Sclemeel of schlemazel hasen after feffer incorporated. Here he comes Here comes Speed Racer. He a demon on wheels four five six seven eight Sclemeel of schlemazel
+						Tillfredsställa våra kunders förväntningar på kortast möjliga tid.
 						</AccordionItemPanel>
 					</AccordionItem>
 
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton>
-								How often should I have my home cleaned?
+							Vilka värderingar upprätthåller oss? 
 							</AccordionItemButton>
 						</AccordionItemHeading>
 
 						<AccordionItemPanel>
-							One two three four five six seven eight Sclemeel of schlemazel hasen after feffer incorporated. Here he comes Here comes Speed Racer. He a demon on wheels four five six seven eight Sclemeel of schlemazel
+						Öppenhet, ärlighet, excellens och närhet till kunden. 
 						</AccordionItemPanel>
 					</AccordionItem>
 
 					<AccordionItem>
 						<AccordionItemHeading>
 							<AccordionItemButton>
-								Do I have to be home when the cleaner comes?
+							Vad skiljer oss från resten? 
 							</AccordionItemButton>
 						</AccordionItemHeading>
 
 						<AccordionItemPanel>
-							One two three four five six seven eight Sclemeel of schlemazel hasen after feffer incorporated. Here he comes Here comes Speed Racer. He a demon on wheels four five six seven eight Sclemeel of schlemazel
+						Vi är kända för att erbjuda olika tjänster som krävs av varje kunds behov. På detta sätt anställer våra kunder ett enda företag som ansvarar för nödvändiga tjänster på ett integrerat sätt.
 						</AccordionItemPanel>
 					</AccordionItem>
 				</Accordion>

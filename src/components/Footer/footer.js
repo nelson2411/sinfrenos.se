@@ -32,8 +32,9 @@ const Footer = () => {
             <div className="row"> 
                 {/*  Start:About  */}
                 <div className="col-lg-3 col-sm-12">
-					<Widget title="About us">
-                        <p>Loren ipsum dolor cons ectetur adipi as scing elit sed do eiusmod tema atp aor incididunt know you labore et dolo rate always ready to welcome you have to know about </p>
+					<Widget title="Om Oss">
+                        <p>Välkommen till SINFRENOS AB Tack för att du besöker vår webbplats.
+                            Här hittar du all information du behöver om vårt företag och de tjänster vi erbjuder.</p>
                     </Widget>
                 </div> 
                 {/*  End:About  */}
@@ -43,13 +44,13 @@ const Footer = () => {
                     <Widget title="Helpful Link">
                         <List classes="recent-post helpful_post">
                             <LI>
-                                <Link to={process.env.PUBLIC_URL + "/about"}>Why choose us</Link>
+                                <Link to={process.env.PUBLIC_URL + "/about"}>Varför välja oss?</Link>
                             </LI>
                             <LI>
-                                <Link to={process.env.PUBLIC_URL + "/services"}>Our service</Link>
+                                <Link to={process.env.PUBLIC_URL + "/services"}>Vår Tjänster</Link>
                             </LI>
                             <LI>
-                                <Link to={process.env.PUBLIC_URL + "/single-services"}>About us</Link>
+                                <Link to={process.env.PUBLIC_URL + "/single-services"}>Om Oss</Link>
                             </LI> 
                         </List>
                     </Widget> 
@@ -94,7 +95,7 @@ const Footer = () => {
 
                 {/*  Start:Subfooter  */}
                 <div className="subfooter"> 
-                    <div className="copyright_text"> &copy; {new Date().getFullYear()} klinarmen - HTML Template From <Link to={process.env.PUBLIC_URL + "/"}>Wcompany </Link>
+                    <div className="copyright_text"> &copy; {new Date().getFullYear()} SINFRENOS AB |<Link to={process.env.PUBLIC_URL + "/"}> Stockholm, Sverige </Link>
                     </div> 
                     <button className={`scrollup ${scroll > top ? "show" : ""}`} onClick={() => scrollToTop()} > 
                         <span className="icon-glyph-203"></span>

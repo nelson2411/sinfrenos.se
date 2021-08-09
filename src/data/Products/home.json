@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1, 
+    "title": "Toilet Bowl Cleaner L.O.C.",
+    "pris": "kr71,00",
+    "shortDesc": "Now more powerful against limescale, this dedicated toilet bowl cleaner removes germs and bacteria, eliminating odours and stubborn stains. Just a small amount applied regularly keeps toilets safe and clean.", 
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "toilet-bowl.jpg",
+    "btnText": "Read More",
+    "singleThumb": "toilet-bowl.jpg"
+  },
+  {
+    "id": 2, 
+    "title": "Concentrated Dishwashing Liquid DISH DROPS™",
+    "pris": "kr91,00",
+    "shortDesc": "DISH DROPS™ Concentrated Dishwashing Liquid easily cuts through grime and baked on grease for sparkling clean dishes.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "dish-wash-liquid.jpg",
+    "btnText": "Read More",
+    "singleThumb": "dish-wash-liquid.jpg"
+  },
+  {
+    "id": 3, 
+    "title": "Kitchen Cleaner L.O.C.™",
+    "pris": "kr67,00",
+    "shortDesc": "With a powerful cleaning action that cuts through the toughest grease and grime effortlessly, L.O.C.™ Kitchen Cleaner leaves your kitchen hygienic and clean.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "kitchen-cleaner.jpg",
+    "btnText": "Read More",
+    "singleThumb": "kitchen-cleaner.jpg"
+  },
+  {
+    "id": 4, 
+    "title": "Multi-Purpose Cleaner L.O.C.™",
+    "pris": "kr103,00",
+    "shortDesc": "Keeping our homes safe and clean has never been more important for us and our families. Thankfully, keeping your home spotlessly clean could not be easier with L.O.C Multi-Purpose Cleaner.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "multi-purpose.jpg",
+    "btnText": "Read More",
+    "singleThumb": "multi-purpose.jpg"
+  },
+  {
+    "id": 5, 
+    "title": "Liquid Concentrated Laundry Detergent - Large Size SA8™",
+    "pris": "kr802,00",
+    "shortDesc": "SA8™ Liquid Concentrated Laundry Detergent - the exclusive biodegradable BIOQUEST™ Formula delivers superior cleaning performance using bioenzymes and natural water softener.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "concentrated.jpg",
+    "btnText": "Read More",
+    "singleThumb": "concentrated.jpg"
+  }
+ 
+]

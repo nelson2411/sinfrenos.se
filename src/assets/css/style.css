@@ -462,6 +462,7 @@ section {
   background-color: #fff;
   z-index: 999;
   position: relative;
+
 }
 .menu_area .row {
   justify-content: space-between;
@@ -472,7 +473,7 @@ section {
 }
 
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   border: 0;
   list-style: none;
@@ -483,6 +484,8 @@ section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navigation .container {
@@ -1095,6 +1098,11 @@ section {
 /*---------------------------------------------------- 
 3. About Section    delete
 ------------------------------------------------------*/
+.logoOm{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-section {
   background-color: #ffffff;
   padding-bottom: 93px;
@@ -1343,7 +1351,7 @@ background: transparent;
 ------------------------------------------------------*/
 .service_section {
   padding-top: 62px;
-  padding-bottom: 150px;
+  padding-bottom: 65px;
   background: #F6F8FA;
 }
 .service_section .col {
@@ -1354,7 +1362,15 @@ background: transparent;
   margin-top: -13px;
 }
 .service_list .img_serv img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+}
+
+.service_list01 .img_serv01 img {
   width: 100%;
+  margin-top: 14px;
 }
 
 .service_list h5 {
@@ -1365,7 +1381,13 @@ background: transparent;
 }
 
 .service_para {
-  padding: 26px 30px 30px 30px;
+  padding: 10px 30px 30px 30px;
+}
+
+.pris-product{
+  font-weight: bolder;
+  color: rgb(9, 9, 199);
+  font-size: 1.15rem;
 }
 
 .service_list a {
@@ -1412,6 +1434,9 @@ background: transparent;
    margin-bottom: -55px;
  }
  
+ .text-amway{
+   text-align: center;
+ }
 
 /*---------------------------------------------------- 
 5. Estimate Section
@@ -2261,7 +2286,9 @@ background: transparent;
   padding-top: 90px;
   background-size: auto auto;
   background-size: cover;
+  background-position: center;
   color: #fff;
+  
 }
 
 .testimonials-section .base_header_2 h3 {
@@ -2735,9 +2762,9 @@ header.blog-banner {
   
   color: #FFF;
   box-sizing: border-box;
-  height: 307px;
+  height: 541px;
   width: 100%;
-  background-position: 50% -167px;
+  background-position: center;
 }
 
 header {
@@ -3456,6 +3483,14 @@ header {
   color: #9B9BA3;
   font-size: 14px;
   text-align: left;
+}
+
+.marg-top{
+  margin-top: 38px;
+}
+
+.marg-top01{
+  margin-top: -36px;
 }
 
 .contact-form #contact-form #submit-contact, .contact-form #comment-form #submit-contact, .comment-form #contact-form #submit-contact, .comment-form #comment-form #submit-contact {

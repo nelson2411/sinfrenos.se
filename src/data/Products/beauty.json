@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1, 
+    "title": "Advanced Skin Refinisher ARTISTRY™ INTENSIVE SKINCARE",
+    "pris": "kr645,00",
+    "shortDesc": "An intensive skin serum that dramatically refines the look of your skin by visible pore reduction after just one use.", 
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+
+    "thumb": "advanced-skin-refinisher.jpg",
+    "btnText": "Read More",
+    "singleThumb": "advanced-skin-refinisher.jpg"
+  },
+  {
+    "id": 2, 
+    "title": "Bundle ARTISTRY SUPREME LX™",
+    "pris": "kr4,599.00",
+    "shortDesc": "Reduces ALL visible signs of aging. he face cream visibly diminishes fine lines and even deep-set wrinkles on the face in short time.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "bundle-artistry-supreme.jpg",
+    "btnText": "Read More",
+    "singleThumb": "bundle-artistry-supreme.jpg"
+  },
+  {
+    "id": 3, 
+    "title": "Eye & Lip Beauty Box ARTISTRY STUDIO™ Tokyo Edition",
+    "pris": "kr395,00",
+    "shortDesc": "A trendy lip and eye palette, which comes with 10 shades designed to flatter all skin tones.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "eye-lip-beauty-box.jpg",
+    "btnText": "Read More",
+    "singleThumb": "eye-lip-beauty-box.jpg"
+  },
+  {
+    "id": 4, 
+    "title": "Moisture Cream Bundle essentials by ARTISTRY™",
+    "pris": "kr508,00",
+    "shortDesc": "Achieve clean and healthy looking skin in 3 minutes by using the essentials by ARTISTRY Bundle, which consists of 3 products, sold as a set with a 10% price discount.",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p> <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi </p>",
+    "thumb": "moisture-cream-bundle.jpg",
+    "btnText": "Read More",
+    "singleThumb": "moisture-cream-bundle.jpg"
+  },
+  {
+    "id": 5, 
+    "title": "Replenishing Moisture Cream ARTISTRY HYDRA-V™",
+    "pris": "kr437,00",
+    "shortDesc": "ARTISTRY HYDRA-V Replenishing Moisture Cream offers the perfect moisturising formula for normal to dry skin. It is easily absorbed so your skin feels nourished, soft and smooth after use. ",
+    "description": "<p>Lorem ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta ligula nibh vel congue diam. Sed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi, porta nibh vel diam. </p>   <p>Aed ligula erat molestie cras morbi in facilisis eu .ipsum dolor sit amet, in urna molestie tristique.Cong erment sed at facilisis lacinia aliquam fusce wisi</p>",
+    "thumb": "replenishing-moisture-cream.jpg",
+    "btnText": "Read More",
+    "singleThumb": "replenishing-moisture-cream.jpg"
+  }
+ 
+]

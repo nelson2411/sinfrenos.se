@@ -1,0 +1,21 @@
+{"sv":[
+  {
+    "id": 1,
+    "smallTitle": "SINFRENOS AB",
+    "title": "Profesionalism and Quality",
+    "description": "Connecting people with places for a world that works better.",
+    "bg": "portada-1-homepage-sinfrenos.jpg",
+    "btnText": "Contact Us",
+    "btnLink": "/contact"
+  },
+  {
+    "id": 2,
+    "smallTitle": "SINFRENOS AB",
+    "title": "Profesionalism and Quality",
+    "description": "Connecting people with places for a world that works better.",
+    "bg": "portada-homepage-sinfrenos.jpg",
+    "btnText": "Contact Us",
+    "btnLink": "/contact"
+  }
+   
+]}

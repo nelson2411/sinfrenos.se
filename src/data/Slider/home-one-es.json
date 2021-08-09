@@ -1,0 +1,21 @@
+{"sv":[
+  {
+    "id": 1,
+    "smallTitle": "SINFRENOS AB",
+    "title": "Profesionalismo y Calidad",
+    "description": "Conectando gente y lugares para un mindi que funciona mejor.",
+    "bg": "portada-1-homepage-sinfrenos.jpg",
+    "btnText": "Contactanos",
+    "btnLink": "/contact"
+  },
+  {
+    "id": 2,
+    "smallTitle": "SINFRENOS AB",
+    "title": "Profesionalismo y Calidad",
+    "description": "Conectando gente y lugares para un mindi que funciona mejor.",
+    "bg": "portada-homepage-sinfrenos.jpg",
+    "btnText": "Contactanos",
+    "btnLink": "/contact"
+  }
+   
+]}

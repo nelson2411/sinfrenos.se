@@ -8,7 +8,7 @@ import Home from '../components/Products/HomeContainer'
 import LogoContainer from '../components/BrandLogo/LogoContainer'
 import PageHeader from '../components/PageHeader'
 
-const About = () => {
+const Products = () => {
   return (
     <>
       <MetaTags>
@@ -37,4 +37,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Products

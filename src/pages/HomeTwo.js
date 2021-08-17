@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <MetaTags>
-        <title>klinarmen | Home Two</title>
+        <title>Sinfrenos| Home Two</title>
         <meta
           name='description'
           content='Cleaning  React JS Template.'
